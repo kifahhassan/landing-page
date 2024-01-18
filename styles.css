@@ -1,0 +1,8 @@
+header, #footer {
+    background-color: #1f2937;
+    color: white;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
