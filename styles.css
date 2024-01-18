@@ -2,7 +2,46 @@ header, #footer {
     background-color: #1f2937;
     color: white;
     padding: 16px 200px;
+
 }
+
+header {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+#header-content {
+    display: flex;
+    padding: 7em 0 7em;
+    flex-basis: 0;
+}
+
+#header-info {
+    flex: 1;
+}
+
+#header-img {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    height: 200px;
+}
+
+#hero-secondary, li {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#header-btn {
+    background-color: #3882F6;
+    color: white;
+}
+
+
 
 ul {
     display: flex;
@@ -23,10 +62,6 @@ h1 {
     color: #F9FAF8;
 }
 
-#hero-secondary, li {
-    font-size: 18px;
-    color: #E5E7EB;
-}
 
 #logo {
     font-size: 24px;
@@ -39,3 +74,5 @@ h1 {
     display: flex;
     justify-content: space-between;
 }
+
+
