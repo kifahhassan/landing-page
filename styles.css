@@ -1,8 +1,41 @@
 header, #footer {
     background-color: #1f2937;
     color: white;
+    padding: 16px 200px;
 }
+
+ul {
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+
+}
+
 
 body {
     font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+#hero-secondary, li {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    padding: 0;
+    margin: 0;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
 }
