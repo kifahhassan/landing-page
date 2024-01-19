@@ -39,7 +39,7 @@ h1 {
     height: 200px;
 }
 
-#hero-secondary, li {
+.secondary, li {
     font-size: 18px;
     color: #E5E7EB;
     margin: 0 0 
@@ -115,6 +115,7 @@ h1 {
 .card-container {
     display: flex;
     gap: 60px;
+    flex-wrap: wrap;
 }
 
 .card-column {
@@ -139,13 +140,59 @@ h2 {
     background-color: #E5E7EB;
     display: flex;
     height: 300px;
-    display: flex;
     align-items: center;
+    flex-direction: column;
+    padding: 7em 13em;
     justify-content: center;
 }
 
 #thor-quote {
-    width: 600px;
     font-size: 36px;
     color: #1F2937;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+}
+
+#thor {
+    font-weight: 900;
+    text-align: right;
+    margin: 0;
+    align-self: flex-end;
+    font-size: 23px;
+}
+
+#signup {
+    height: 130px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+#action-btn {
+    color: white;
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 7px;
+    font-weight: 700;
+    padding: 5px 25px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+strong {
+    font-size: 24px;
+}
+
+.signup-container {
+    padding: 100px;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
 }
